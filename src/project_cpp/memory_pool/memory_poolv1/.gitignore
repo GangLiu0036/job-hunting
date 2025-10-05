@@ -1,0 +1,48 @@
+# CMake 构建目录
+build/
+cmake-build-*/
+
+# 可执行文件
+*.exe
+*.out
+*.app
+
+# 编译产物
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# CMake 缓存和文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# 调试信息
+*.pdb
+*.ilk
+
+# 测试产物
+Testing/
+*.log
